@@ -41,7 +41,7 @@ It includes real-life applications, multiple difficulty levels, and instant feed
 
 4. Run the app with:
 
-python quiz_app.py
+python_quiz.py
 
 
 
@@ -52,7 +52,7 @@ python quiz_app.py
 
 Python-DSA-Quiz/
 │
-├── quiz_app.py          # Main quiz file
+├── python_quiz.py          # Main quiz file
 ├── quiz_results.json    # Stores quiz scores (ignored by Git)
 ├── README.md            # Project documentation
 └── .gitignore           # Tells Git which files to ignore
