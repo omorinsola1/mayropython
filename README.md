@@ -54,7 +54,7 @@ It includes real-life applications, multiple difficulty levels, and instant feed
    - Choose the mode you want to use.
    - Answer the questions one by one.
    - The answers to each question will be displayed immediately after answering them.
-   - Then  select "quit" option once you are done with the quiz in order to exit the quiz.
+   - Then  select the "quit" option once you are done with the quiz in order to exit the quiz.
      
     
 
