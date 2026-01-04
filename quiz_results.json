@@ -1,0 +1,196 @@
+{
+    "buki": {
+        "Python": [
+            {
+                "date": "2025-10-16 15:52",
+                "difficulty": "easy",
+                "score": 4,
+                "total": 5,
+                "percentage": 80.0,
+                "grade": "Very Good",
+                "answered_questions": [
+                    10,
+                    4,
+                    8,
+                    1,
+                    2
+                ]
+            }
+        ],
+        "DSA": [],
+        "progress": {
+            "Python": {
+                "answered_ids": [
+                    10,
+                    4,
+                    8,
+                    1,
+                    2
+                ],
+                "total_answered": 5
+            }
+        }
+    },
+    "Mary": {
+        "Python": [
+            {
+                "date": "2025-11-09 15:55",
+                "difficulty": "easy",
+                "score": 4,
+                "total": 5,
+                "percentage": 80.0,
+                "grade": "Very Good",
+                "answered_questions": [
+                    2,
+                    4,
+                    1,
+                    9,
+                    5
+                ]
+            }
+        ],
+        "DSA": [],
+        "progress": {
+            "Python": {
+                "answered_ids": [
+                    2,
+                    4,
+                    1,
+                    9,
+                    5
+                ],
+                "total_answered": 5
+            }
+        }
+    },
+    "rere": {
+        "Python": [
+            {
+                "date": "2025-11-09 16:00",
+                "difficulty": "hard",
+                "score": 2,
+                "total": 5,
+                "percentage": 40.0,
+                "grade": "Needs Improvement",
+                "answered_questions": [
+                    25,
+                    30,
+                    22,
+                    29,
+                    24
+                ]
+            }
+        ],
+        "DSA": [],
+        "progress": {
+            "Python": {
+                "answered_ids": [
+                    25,
+                    30,
+                    22,
+                    29,
+                    24
+                ],
+                "total_answered": 5
+            }
+        }
+    },
+    "& \"C:/Program Files/Python313/python.exe\" c:/Users/Dell/OneDrive/Mary_drive/OneDrive/Documents/python_quiz/python_quiz.py": {
+        "Python": [
+            {
+                "date": "2025-12-31 19:14",
+                "difficulty": "medium",
+                "score": 4,
+                "total": 5,
+                "percentage": 80.0,
+                "grade": "Very Good",
+                "answered_questions": [
+                    48,
+                    14,
+                    44,
+                    16,
+                    18
+                ]
+            },
+            {
+                "date": "2025-12-31 19:31",
+                "difficulty": "easy",
+                "score": 0,
+                "total": 5,
+                "percentage": 0.0,
+                "grade": "Needs Improvement",
+                "answered_questions": [
+                    2,
+                    3,
+                    36,
+                    33,
+                    39
+                ]
+            }
+        ],
+        "DSA": [],
+        "progress": {
+            "Python": {
+                "answered_ids": [
+                    48,
+                    14,
+                    44,
+                    16,
+                    18,
+                    2,
+                    3,
+                    36,
+                    33,
+                    39
+                ],
+                "total_answered": 10
+            }
+        }
+    },
+    "momo": {
+        "Python": [
+            {
+                "date": "2026-01-04 16:25",
+                "mode": "PRACTICE",
+                "difficulty": "mixed",
+                "score": "4/5",
+                "percentage": 80.0,
+                "grade": "B"
+            },
+            {
+                "date": "2026-01-04 16:34",
+                "mode": "TEST",
+                "difficulty": "medium",
+                "score": "2/5",
+                "percentage": 40.0,
+                "grade": "F"
+            }
+        ],
+        "DSA": [
+            {
+                "date": "2026-01-04 16:30",
+                "mode": "PRACTICE",
+                "difficulty": "hard",
+                "score": "0/5",
+                "percentage": 0.0,
+                "grade": "F"
+            }
+        ],
+        "progress": {
+            "Python": {
+                "answered_ids": [
+                    76,
+                    13,
+                    12,
+                    42,
+                    77
+                ],
+                "total_answered": 5
+            },
+            "DSA": {
+                "answered_ids": [],
+                "total_answered": 0
+            }
+        }
+    }
+}
