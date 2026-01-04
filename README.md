@@ -29,7 +29,7 @@ Ensure you have Python 3.8 or higher installed.
 2.📥 Get the Code
 Option A: No Git installed? Click the green Code button at the top of this page and select Download ZIP. Extract the files to a folder on your computer. Then run the code in your preferred code editor.
 
-Option B: Using Git Run the following command in your terminal: git clone https://github.com/omorinsola1/repository.git
+Option B: Using Git Run the following command in your terminal: git clone https://github.com/omorinsola1/mayropython.git
 
 
 python python_quiz.py
