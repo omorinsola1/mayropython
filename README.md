@@ -1,93 +1,67 @@
----
+🐍 Python + DSA Adaptive Quiz App
+A robust, terminal-based examination tool designed to bridge the gap between Python syntax and algorithmic logic. This application features a data-driven approach to learning, utilizing JSON persistence and an adaptive difficulty engine to challenge users based on their real-time performance.
 
-🧠 Python + DSA Quiz App
+🚀 Key Features
+Dynamic Difficulty Scaling: Toggle between Easy, Medium, Hard, or Mixed modes.
 
-📘 Overview
+Adaptive Learning Engine: An optional mode that automatically adjusts question complexity based on your success rate.
 
-The Python + DSA Quiz App is a lightweight quiz program designed to help learners revise Python programming and Data Structures & Algorithms (DSA) through practical, concept-based exercises.
-It includes real-life applications, multiple difficulty levels, and instant feedback to make learning efficient and interactive.
+Persistent Data Storage: Full user lifecycle management via quiz_results.json, tracking cumulative scores and attempts.
 
+Immediate Pedagogical Feedback: Real-time explanations for incorrect answers to reinforce core CS fundamentals.
 
----
+Algorithmic Variety: Questions covering Big O notation, Data Structures (Linked Lists, Trees, Stacks), and Python-specific optimizations.
 
-🚀 Features
+🛠️ System Architecture
+The project follows a modular structure to ensure maintainability and separation of concerns. This architecture allows the logic to stay independent of the data, making it easy to scale.
 
-🎯 Choose from Easy, Medium, Hard, or Mixed difficulty
-
-🔀 Randomized questions for variety
-
-💡 Explanations for wrong answers to boost understanding
-
-📊 Result tracking using JSON (scores, attempts, and difficulty)
-
-👤 User profiles – results saved under each username
-
-⚡ Optional adaptive mode that adjusts to your skill level
-
-
-
----
-
-⚙️ How to Run
-
-1. Ensure you have Python 3 installed on your computer.
-
-
-2. Download or copy this project folder.
-
-
-3. Open the project in VS Code or your preferred editor.
-     - Then click on file and open folder.
-     -  select the quiz folder that you downloaded.
-
-   
-4.Run the quiz (2 options) in your preferred code editor:
-  - option 1 : click the "Run" button at the top-right corner of vscode.
-  Then the quiz will start below in the terminal.
-  - option 2: click on  " Terminal" .
-     -  Then click on "New Terminal" depending on your code editor.
-     -  Then type "python python_quiz.py" in the terminal and press "Enter".
-
-
-5. play the quiz:
-   -When it says "Enter your username", type your name.
-   - Choose the mode you want to use.
-   - Answer the questions one by one.
-   - The answers to each question will be displayed immediately after answering them.
-   - Then  select the "quit" option once you are done with the quiz in order to exit the quiz.
-     
-    
-
-
----
-
-🗂️ Folder Structure
+Plaintext
 
 Python-DSA-Quiz/
-│
-├── python_quiz.py          # Main quiz file
-├── quiz_results.json    # Stores quiz scores (ignored by Git)
-├── README.md            # Project documentation
-└── .gitignore           # Tells Git which files to ignore
+├── python_quiz.py        # Main Application Entry Point & Logic
+├── quiz_results.json     # Local Database (JSON format)
+├── README.md             # Project Documentation
+└── .gitignore            # Version control exclusions
+⚙️ Installation & Setup
+1. Prerequisites
+Ensure you have Python 3.8 or higher installed.
 
+Bash
 
----
+python --version
+2. Installation
+Clone the repository to your local machine:
 
-💡 Purpose
+Bash
 
-This project helps you:
+git clone https://github.com/your-username/python-dsa-quiz.git
+cd python-dsa-quiz
+3. Execution
+Run the application directly through the terminal:
 
-Practice and master Python and DSA fundamentals
+Bash
 
-Build consistent problem-solving skills
+python python_quiz.py
+📖 Usage Guide
+Authentication: Enter your unique username. The system loads your historical progress automatically.
 
-Track your learning progress over time
+Mode Selection: Choose a fixed difficulty or activate the Adaptive Engine.
 
-Prepare effectively for tests and interviews
+Interaction: Select the best answer for the prompt.
 
+Review: Study the immediate feedback provided for any missed questions.
 
+Save & Exit: Use the Quit option to ensure your session data is serialized to the local database.
 
----
+📊 Performance Tracking
+The application manages user data through a structured JSON schema, allowing for long-term progress monitoring and performance analytics.
+
+🛣️ Future Roadmap
+Advanced UI Layer: Transitioning from CLI to an enhanced graphical interface.
+
+Performance Analytics: Integration of advanced scoring metrics and session timing.
+
+Expanded Knowledge Base: Scaling the question repository to include more complex algorithmic paradigms.
 
 🧰 Built With
 
