@@ -26,20 +26,11 @@ Python-DSA-Quiz/
 1. Prerequisites
 Ensure you have Python 3.8 or higher installed.
 
-Bash
+2.📥 Get the Code
+Option A: No Git installed? Click the green Code button at the top of this page and select Download ZIP. Extract the files to a folder on your computer. Then run the code in your preferred code editor.
 
-python --version
-2. Installation
-Clone the repository to your local machine:
+Option B: Using Git Run the following command in your terminal: git clone https://github.com/omorinsola1/repository.git
 
-Bash
-
-git clone https://github.com/your-username/python-dsa-quiz.git
-cd python-dsa-quiz
-3. Execution
-Run the application directly through the terminal:
-
-Bash
 
 python python_quiz.py
 📖 Usage Guide
